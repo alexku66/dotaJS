@@ -10118,15 +10118,25 @@ define({"DOTAAbilities": {
             "03": {
                 "var_type": "FIELD_INTEGER",
                 "speed": "857"
+            },
+            "04": {
+                "var_type": "FIELD_INTEGER",
+                "tooltip_range": "500 750 1000 1250"
+            },
+            "05": {
+                "var_type": "FIELD_FLOAT",
+                "vision_duration": "3.34"
             }
         }
     },
     "meepo_poof": {
         "ID": "5431",
         "AbilityName": "meepo_poof",
-        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
-        "AbilityCastPoint": "0.0",
-        "AbilityChannelTime": "1.5",
+        "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+        "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+        "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+        "AbilityCastPoint": "1.5",
+        "AbilityChannelTime": "0.0",
         "AbilityCooldown": "14 12 10 8",
         "AbilityManaCost": "80",
         "AbilityDamage": "80 100 120 140",
@@ -11698,7 +11708,7 @@ define({"DOTAAbilities": {
             },
             "02": {
                 "var_type": "FIELD_FLOAT",
-                "pulse_duration": "0.5"
+                "pulse_duration": "1.0"
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
@@ -11710,7 +11720,7 @@ define({"DOTAAbilities": {
             },
             "05": {
                 "var_type": "FIELD_INTEGER",
-                "total_pulses": "5"
+                "total_pulses": "10"
             },
             "06": {
                 "var_type": "FIELD_FLOAT",
@@ -11910,7 +11920,7 @@ define({"DOTAAbilities": {
             },
             "04": {
                 "var_type": "FIELD_INTEGER",
-                "attack_slow": "100 100 100"
+                "slow": "100 100 100"
             }
         }
     },

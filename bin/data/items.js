@@ -459,6 +459,7 @@ define({"DOTAAbilities": {
         "ItemDeclaresPurchase": "1",
         "ItemStockMax": "1",
         "ItemStockTime": "480.0",
+        "ItemSupport": "1",
         "UIPickupSound": "Item.PickUpGemShop",
         "UIDropSound": "Item.DropGemShop",
         "WorldDropSound": "Item.DropGemWorld",
@@ -676,6 +677,7 @@ define({"DOTAAbilities": {
         "ItemPermanent": "0",
         "ItemInitialCharges": "2",
         "ItemDeclaresPurchase": "1",
+        "ItemSupport": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -732,6 +734,7 @@ define({"DOTAAbilities": {
         "ItemStockMax": "2",
         "ItemStockTime": "360.0",
         "ItemDeclaresPurchase": "1",
+        "ItemSupport": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -761,6 +764,7 @@ define({"DOTAAbilities": {
         "ItemPermanent": "0",
         "ItemInitialCharges": "2",
         "ItemDeclaresPurchase": "1",
+        "ItemSupport": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
@@ -816,7 +820,8 @@ define({"DOTAAbilities": {
         "ItemShareability": "ITEM_FULLY_SHAREABLE",
         "ItemAliases": "donkey;chicken",
         "ItemStockMax": "1",
-        "ItemStockTime": "7.0"
+        "ItemStockTime": "7.0",
+        "ItemSupport": "1"
     },
     "item_tpscroll": {
         "ID": "46",
@@ -1473,7 +1478,8 @@ define({"DOTAAbilities": {
         "ItemShareability": "ITEM_FULLY_SHAREABLE",
         "ItemAliases": "crow",
         "ItemStockMax": "1",
-        "ItemStockTime": "7.0"
+        "ItemStockTime": "7.0",
+        "ItemSupport": "1"
     },
     "item_recipe_buckler": {
         "ID": "85",
@@ -4174,6 +4180,7 @@ define({"DOTAAbilities": {
         "ItemStockMax": "3",
         "ItemStockTime": "720.0",
         "ItemDeclaresPurchase": "1",
+        "ItemSupport": "1",
         "AbilitySpecial": {
             "01": {
                 "var_type": "FIELD_INTEGER",
