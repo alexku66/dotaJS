@@ -5278,7 +5278,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "attack_spill_width": "80 80 80 80"
+                "attack_spill_width": "68 68 68 68"
             }
         }
     },
@@ -11111,7 +11111,7 @@ define({"DOTAAbilities": {
         "AbilityName": "keeper_of_the_light_illuminate",
         "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
         "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-        "AbilityCastRange": "1800",
+        "AbilityCastRange": "1400",
         "AbilityCastPoint": "0.3 0.3 0.3 0.3",
         "AbilityCooldown": "10.0 10.0 10.0 10.0",
         "AbilityChannelTime": "2.0 3.0 4.0 5.0",
@@ -11127,7 +11127,7 @@ define({"DOTAAbilities": {
             },
             "03": {
                 "var_type": "FIELD_INTEGER",
-                "range": "1600"
+                "range": "1200"
             },
             "04": {
                 "var_type": "FIELD_FLOAT",
